@@ -20,7 +20,7 @@
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if (sender == self.FinishBtn){
-//        self.password=@"88888888";
+        //        self.password=@"88888888";
         int i=(int)self.SC2.selectedSegmentIndex;
         int j=8;
         NSString *temp=self.NumOfPassword.text;
@@ -42,38 +42,38 @@
                 break;
             case 1:
                 do{
-                for(int k=0;k<j;k++){
-                    int t=arc4random()%36;
-                    if(t>9){
-                        pw[k]='a'+t-10;
-                        has_a=YES;
+                    for(int k=0;k<j;k++){
+                        int t=arc4random()%36;
+                        if(t>9){
+                            pw[k]='a'+t-10;
+                            has_a=YES;
+                        }
+                        else{
+                            pw[k]='0'+t;
+                            has_1=YES;
+                        }
                     }
-                    else{
-                        pw[k]='0'+t;
-                        has_1=YES;
-                    }
-                }
-                pw[j]='\0';
+                    pw[j]='\0';
                 }while (!(has_1&&has_a));
                 break;
             case 2:
                 do{
-                for(int k=0;k<j;k++){
-                    int t=arc4random()%62;
-                    if(t<10){
-                        pw[k]='0'+t;
-                        has_1=YES;
+                    for(int k=0;k<j;k++){
+                        int t=arc4random()%62;
+                        if(t<10){
+                            pw[k]='0'+t;
+                            has_1=YES;
+                        }
+                        else if(t<36){
+                            pw[k]='a'+t-10;
+                            has_a=YES;
+                        }
+                        else{
+                            pw[k]='A'+t-36;
+                            has_A=YES;
+                        }
                     }
-                    else if(t<36){
-                        pw[k]='a'+t-10;
-                        has_a=YES;
-                    }
-                    else{
-                        pw[k]='A'+t-36;
-                        has_A=YES;
-                    }
-                }
-                pw[j]='\0';
+                    pw[j]='\0';
                 }while(!(has_1&&has_A&&has_a));
                 break;
             case 3:

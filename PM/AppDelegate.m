@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "GesturePasswordController.h"
 
 @interface AppDelegate ()
 
@@ -17,12 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    if(![[NSUserDefaults standardUserDefaults] boolForKey:@"firstStart"]){
-        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstStart"];
-        NSLog(@"第一次启动");
-    }else{
-        NSLog(@"不是第一次启动");
-    }
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    [self.window setRootViewController:[[GesturePasswordController alloc] init]];
+//    
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import"Password.h"
 
 @interface AddViewController : UIViewController
+
+@property Password *newp;
 
 - (IBAction) unwindToList:(UIStoryboardSegue *)segue;
 @end

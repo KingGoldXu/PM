@@ -15,7 +15,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *Title;
 @property (weak, nonatomic) IBOutlet UITextField *ID;
 @property (weak, nonatomic) IBOutlet UITextField *Password;
-@property (weak, nonatomic) IBOutlet UITextField *Classify;
 @property (weak, nonatomic) IBOutlet UIButton *ONEBtn;
 
 @end
@@ -32,7 +31,16 @@
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if (sender == self.OKBtn){
-        
+        if (self.Title.text.length > 0&&self.ID.text.length>0&&self.Password.text.length>0) {
+            self.newp = [[Password alloc] init];
+            self.newp.title = self.Title.text;
+            self.newp.pid = self.ID.text;
+            //self.newp.groupName = self.GroupName.text;
+            self.newp.password = self.Password.text;
+        }
+        else{
+            return;
+        }
     }
     else if(sender == self.ONEBtn){
         

@@ -17,6 +17,16 @@
 		182C2CDA1C0DBAA000474DE7 /* PMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182C2CD91C0DBAA000474DE7 /* PMUITests.m */; };
 		182C2CE91C0DD30B00474DE7 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182C2CE81C0DD30B00474DE7 /* AddViewController.m */; };
 		182C2CEC1C0DDCFF00474DE7 /* ONEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182C2CEB1C0DDCFF00474DE7 /* ONEViewController.m */; };
+		182F9B6C1C1D89CB0030FC84 /* Password.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F9B6B1C1D89CB0030FC84 /* Password.m */; };
+		18776EEB1C4BB0E200056E83 /* DetailPWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18776EE91C4BB0E200056E83 /* DetailPWViewController.m */; };
+		18776EEC1C4BB0E200056E83 /* DetailPWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18776EEA1C4BB0E200056E83 /* DetailPWViewController.xib */; };
+		18825D0B1C27E1B100D9B73F /* PasswordListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18825D0A1C27E1B100D9B73F /* PasswordListTableViewController.m */; };
+		189A29671C4916BB00206F70 /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189A29661C4916BB00206F70 /* PasswordViewController.m */; };
+		24856C551C4FE698003C4DD0 /* TentacleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24856C541C4FE698003C4DD0 /* TentacleView.m */; };
+		24856C581C4FE776003C4DD0 /* GesturePasswordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 24856C571C4FE776003C4DD0 /* GesturePasswordButton.m */; };
+		24856C5B1C4FE816003C4DD0 /* GesturePasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24856C5A1C4FE816003C4DD0 /* GesturePasswordController.m */; };
+		24856C5E1C4FE8F7003C4DD0 /* GesturePasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24856C5D1C4FE8F7003C4DD0 /* GesturePasswordView.m */; };
+		24856C691C4FF490003C4DD0 /* KeychainItemWrapper in Resources */ = {isa = PBXBuildFile; fileRef = 24856C681C4FF490003C4DD0 /* KeychainItemWrapper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +67,24 @@
 		182C2CE81C0DD30B00474DE7 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 		182C2CEA1C0DDCFF00474DE7 /* ONEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONEViewController.h; sourceTree = "<group>"; };
 		182C2CEB1C0DDCFF00474DE7 /* ONEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONEViewController.m; sourceTree = "<group>"; };
+		182F9B6A1C1D89CB0030FC84 /* Password.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Password.h; sourceTree = "<group>"; };
+		182F9B6B1C1D89CB0030FC84 /* Password.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Password.m; sourceTree = "<group>"; };
+		18776EE81C4BB0E200056E83 /* DetailPWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailPWViewController.h; sourceTree = "<group>"; };
+		18776EE91C4BB0E200056E83 /* DetailPWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailPWViewController.m; sourceTree = "<group>"; };
+		18776EEA1C4BB0E200056E83 /* DetailPWViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailPWViewController.xib; sourceTree = "<group>"; };
+		18825D091C27E1B100D9B73F /* PasswordListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordListTableViewController.h; sourceTree = "<group>"; };
+		18825D0A1C27E1B100D9B73F /* PasswordListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordListTableViewController.m; sourceTree = "<group>"; };
+		189A29651C4916BB00206F70 /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		189A29661C4916BB00206F70 /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
+		24856C531C4FE697003C4DD0 /* TentacleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TentacleView.h; sourceTree = "<group>"; };
+		24856C541C4FE698003C4DD0 /* TentacleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TentacleView.m; sourceTree = "<group>"; };
+		24856C561C4FE776003C4DD0 /* GesturePasswordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturePasswordButton.h; sourceTree = "<group>"; };
+		24856C571C4FE776003C4DD0 /* GesturePasswordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturePasswordButton.m; sourceTree = "<group>"; };
+		24856C591C4FE816003C4DD0 /* GesturePasswordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturePasswordController.h; sourceTree = "<group>"; };
+		24856C5A1C4FE816003C4DD0 /* GesturePasswordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturePasswordController.m; sourceTree = "<group>"; };
+		24856C5C1C4FE8F7003C4DD0 /* GesturePasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturePasswordView.h; sourceTree = "<group>"; };
+		24856C5D1C4FE8F7003C4DD0 /* GesturePasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturePasswordView.m; sourceTree = "<group>"; };
+		24856C681C4FF490003C4DD0 /* KeychainItemWrapper */ = {isa = PBXFileReference; lastKnownFileType = folder; path = KeychainItemWrapper; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +135,18 @@
 		182C2CB31C0DBA9F00474DE7 /* PM */ = {
 			isa = PBXGroup;
 			children = (
+				24856C681C4FF490003C4DD0 /* KeychainItemWrapper */,
 				182C2CB71C0DBA9F00474DE7 /* AppDelegate.h */,
 				182C2CB81C0DBA9F00474DE7 /* AppDelegate.m */,
 				182C2CBA1C0DBA9F00474DE7 /* ViewController.h */,
 				182C2CBB1C0DBA9F00474DE7 /* ViewController.m */,
 				182C2CBD1C0DBA9F00474DE7 /* Main.storyboard */,
+				18825D091C27E1B100D9B73F /* PasswordListTableViewController.h */,
+				18825D0A1C27E1B100D9B73F /* PasswordListTableViewController.m */,
+				189A29651C4916BB00206F70 /* PasswordViewController.h */,
+				189A29661C4916BB00206F70 /* PasswordViewController.m */,
+				182F9B6A1C1D89CB0030FC84 /* Password.h */,
+				182F9B6B1C1D89CB0030FC84 /* Password.m */,
 				182C2CE71C0DD30B00474DE7 /* AddViewController.h */,
 				182C2CEA1C0DDCFF00474DE7 /* ONEViewController.h */,
 				182C2CEB1C0DDCFF00474DE7 /* ONEViewController.m */,
@@ -120,6 +155,17 @@
 				182C2CC21C0DBA9F00474DE7 /* LaunchScreen.storyboard */,
 				182C2CC51C0DBA9F00474DE7 /* Info.plist */,
 				182C2CB41C0DBA9F00474DE7 /* Supporting Files */,
+				18776EE81C4BB0E200056E83 /* DetailPWViewController.h */,
+				18776EE91C4BB0E200056E83 /* DetailPWViewController.m */,
+				18776EEA1C4BB0E200056E83 /* DetailPWViewController.xib */,
+				24856C531C4FE697003C4DD0 /* TentacleView.h */,
+				24856C541C4FE698003C4DD0 /* TentacleView.m */,
+				24856C561C4FE776003C4DD0 /* GesturePasswordButton.h */,
+				24856C571C4FE776003C4DD0 /* GesturePasswordButton.m */,
+				24856C591C4FE816003C4DD0 /* GesturePasswordController.h */,
+				24856C5A1C4FE816003C4DD0 /* GesturePasswordController.m */,
+				24856C5C1C4FE8F7003C4DD0 /* GesturePasswordView.h */,
+				24856C5D1C4FE8F7003C4DD0 /* GesturePasswordView.m */,
 			);
 			path = PM;
 			sourceTree = "<group>";
@@ -253,7 +299,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18776EEC1C4BB0E200056E83 /* DetailPWViewController.xib in Resources */,
 				182C2CC41C0DBA9F00474DE7 /* LaunchScreen.storyboard in Resources */,
+				24856C691C4FF490003C4DD0 /* KeychainItemWrapper in Resources */,
 				182C2CC11C0DBA9F00474DE7 /* Assets.xcassets in Resources */,
 				182C2CBF1C0DBA9F00474DE7 /* Main.storyboard in Resources */,
 			);
@@ -280,9 +328,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24856C5E1C4FE8F7003C4DD0 /* GesturePasswordView.m in Sources */,
+				24856C5B1C4FE816003C4DD0 /* GesturePasswordController.m in Sources */,
+				24856C581C4FE776003C4DD0 /* GesturePasswordButton.m in Sources */,
+				18776EEB1C4BB0E200056E83 /* DetailPWViewController.m in Sources */,
+				18825D0B1C27E1B100D9B73F /* PasswordListTableViewController.m in Sources */,
 				182C2CBC1C0DBA9F00474DE7 /* ViewController.m in Sources */,
 				182C2CB91C0DBA9F00474DE7 /* AppDelegate.m in Sources */,
+				182F9B6C1C1D89CB0030FC84 /* Password.m in Sources */,
 				182C2CE91C0DD30B00474DE7 /* AddViewController.m in Sources */,
+				24856C551C4FE698003C4DD0 /* TentacleView.m in Sources */,
+				189A29671C4916BB00206F70 /* PasswordViewController.m in Sources */,
 				182C2CEC1C0DDCFF00474DE7 /* ONEViewController.m in Sources */,
 				182C2CB61C0DBA9F00474DE7 /* main.m in Sources */,
 			);
